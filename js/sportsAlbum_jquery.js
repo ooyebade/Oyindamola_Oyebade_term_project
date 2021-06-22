@@ -1,5 +1,5 @@
 // handle button onclick actions
-const url_sports = "https://gist.githubusercontent.com/ooyebade/35bd9e20924a25fdaa1363bc96ce4bfe/raw/4d665167568c19069db79d97667865f2db64ae6c/sports.json";
+const url_sports = "https://gist.githubusercontent.com/ooyebade/35bd9e20924a25fdaa1363bc96ce4bfe/raw/8f05415a4930dc8c21f987cb6536525bacaff96f/sports.json";
 makeRequest(url_sports);
 
 // takes url, creates XMLHttpRequest to fetch data
