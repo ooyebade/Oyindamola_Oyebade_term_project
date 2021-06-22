@@ -1,0 +1,36 @@
+body {
+    font-family: 'Crimson Text', sans-serif;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+p::selection {
+    background: #fff2a8;
+}
+
+main {
+    margin: auto 5%;
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 18px;
+}
+
+.page-title {
+    margin-top: 20px;
+    padding: 30px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.paragraph p {
+    margin: 5%;
+    line-height: 2.2em;
+}
+
+.indent {
+    text-indent: 50px;
+}

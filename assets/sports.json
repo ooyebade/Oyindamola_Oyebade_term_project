@@ -1,0 +1,58 @@
+{
+    "sports": [
+        {
+            "sport": {
+                "id": "Senior Night-",
+                "url": "assets/img/sn.jpg",
+                "alt": "Senior Night",
+                "caption": "Senior Night",
+                "num": 1
+            }
+        },
+        {
+            "sport": {
+                "id": "basketball practice-",
+                "url": "assets/img/bp.jpg",
+                "alt": "Basketball Practice",
+                "caption": "Basketball Practice",
+                "num": 1
+            }
+        },
+        {
+            "sport": {
+                "id": "teammate & I-",
+                "url": "assets/img/ti.jpg",
+                "alt": "Teammate & I",
+                "caption": "Teammate & I",
+                "num": 1
+            }
+        },
+        {
+            "sport": {
+                "id": "basketball game-",
+                "url": "assets/img/bg.jpg",
+                "alt": "Basketball Game",
+                "caption": "Basketball Game",
+                "num": 1
+            }
+        },
+        {
+            "sport": {
+                "id": "in-game hurdle-",
+                "url": "assets/img/igh.jpg",
+                "alt": "In-Game Hurdle",
+                "caption": "In-Game Hurdle",
+                "num": 1
+            }
+        },
+        {
+            "sport": {
+                "id": "in-Game Hurdle-",
+                "url": "assets/img/hurdle.jpg",
+                "alt": "In-Game Hurdle",
+                "caption": "In-Game Hurdle",
+                "num": 1
+            }
+        }
+    ]
+}

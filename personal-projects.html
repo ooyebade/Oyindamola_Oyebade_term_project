@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Info -->
+    <meta charset="UTF-8">
+    <meta name="description" content="BU MET CS601 - Final Project">
+    <meta name="keywords" content="BU, MET, CS601, Final Project, HTML, CSS, JS, jQuery, Ajax">
+    <meta name="author" content="Elizabeth Oyebade">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Favicon -->
+    <!-- Title -->
+    <title>Elizabeth Oyebade ::: Portfolio</title>
+    <!-- Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="styles/css/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/css/portfolio.css">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+</head>
+<body>
+    
+    <nav></nav>
+
+    <!--
+    <video autoplay muted loop id="video-bg">
+        <source src="assets/vid/coding_bg.mp4" type="video/mp4">
+    </video>
+    -->
+    <main>
+        <div id="portfolio">
+            <h1>{{ title }}</h1>
+            <br>
+            <h3>{{ subTitle }}</h3>
+
+            <div class="container">
+                <div class="card">
+                    <div class="card-head">
+                        <a v-bind:href="cbLink"><img :src="boogsLogo" alt="Chef Boogs Logo"></a>
+                    </div>
+                    <br>
+                    <div class="card-body">
+                        <h4><a v-bind:href="cbLink">{{ cbName }}</a></h4>
+                        <p>{{ cbDesc }}</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="card">
+                    <div class="card-head">
+                        <a v-bind:href="eeLink"><img :src="eeLogo" alt="E&Eclothing"></a>
+                    </div>
+                    <br>
+                    <div class="card-body">
+                        <h4><a v-bind:href="eeLink">{{ eeName }}</a></h4>
+                        <p>{{ eeDesc }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/portfolio.js"></script>
+    
+    <br>
+    <br>
+    <footer id="footer"></footer>
+
+    <script src="js/pageAttributes.js"></script>
+
+</body>
+</html>

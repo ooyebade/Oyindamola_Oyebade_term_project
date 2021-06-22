@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Info -->
+    <meta charset="UTF-8">
+    <meta name="description" content="BU MET CS601 - Final Project">
+    <meta name="keywords" content="BU, MET, CS601, Final Project, HTML, CSS, JS, jQuery, Ajax">
+    <meta name="author" content="Elizabeth Oyebade">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Favicon -->
+    <!-- Title -->
+    <title>Elizabeth Oyebade ::: Photo Album</title>
+    <!-- Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="styles/css/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/css/modal.css">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav></nav>
+
+    <main>
+        <div class="page-title">Photo Album</div>
+
+        <section class="intro">
+            <p>
+                I love playing sports. When I was in High School, I was interview by a reporter from <a href="https://www.insidenova.com/sports/stonewalls-elizabeth-oyebade-cant-quit-basketball/article_96206a2e-9ce1-11e5-a759-f798e730dee3.html"
+                target="_blank">InsideNova</a>, which is Northern Virginia's top source for high school sports score, weather alerts and etc.
+            </p>
+        </section>
+
+        <!-- The Modal -->
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img id="modalImg" class="modal-content" alt="">
+            <div id="caption"></div>
+        </div>
+
+        <!-- have both JS and jQuery versions of writing to DOM -->
+        <section id="photos" class="photos">
+        </section>
+
+        <section class="vid">
+            <div class="container-flex">
+                <div class="video-player">
+                    <video controls>
+                        <source src="assets/vid/highlights.mp4" type="video/mp4" />
+                        Your browser does not support the video tag!
+                    </video>
+                </div>
+            </div>
+        </section>   
+
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="js/pageAttributes.js"></script>
+
+    <!--JS-->
+    <!--<script src="js/sportsAlbum_js.js"></script>-->
+
+    <!--JQUERY-->
+    <script src="js/sportsAlbum_jquery.js"></script>
+    
+</body>
+</html>

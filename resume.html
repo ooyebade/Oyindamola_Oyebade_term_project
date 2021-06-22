@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Info -->
+    <meta charset="UTF-8">
+    <meta name="description" content="BU MET CS601 - Final Project">
+    <meta name="keywords" content="BU, MET, CS601, Final Project, HTML, CSS, JS, jQuery, Ajax">
+    <meta name="author" content="Elizabeth Oyebade">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Favicon -->
+    <!-- Title -->
+    <title>Elizabeth Oyebade ::: Resume</title>
+    <!-- Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="styles/css/grid.css">
+    <link type="text/css" rel="stylesheet" href="styles/css/page-attr.css">
+    <link type="text/css" rel="stylesheet" href="styles/css/resume.css">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav></nav>
+    
+    <!-- <div class="page-title">Resume</div> -->
+
+    <!-- Show PDF version if screen is too small -->
+    <iframe src="file:///C:/Users/oyeba/OneDrive/Documents/Elizabeth's%20Resume.pdf"></iframe>
+
+    <!-- Show page version if screen is big enough -->
+    <!-- Resume details are loaded in from JSON and appended with jQuery -->
+    <div id="page" class="container">
+        
+        <div id="header" class="header">
+            <div id="full-name" class="full-name"></div>
+            <div class="clear"></div>
+            <div id="contact" class="contact">
+                <span id="email">Email: </span>
+                <span class="separator"></span>
+                <span id="phone">Phone: </span>
+                <span class="separator"></span>
+                <span id="website">Website: </span>
+            </div>
+        </div>
+
+        <section id="education">
+            <div class="title"><h3>Education</h3></div>
+        </section>
+
+        <section id="skills">
+            <div class="title"><h3>Skills</h3></div>
+        </section>
+
+        <section id="experience">
+            <div class="title"><h3>Experience</h3></div>
+        </section>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script src="js/resume.js"></script>
+    <script src="js/pageAttributes.js"></script>
+
+</body>
+</html>

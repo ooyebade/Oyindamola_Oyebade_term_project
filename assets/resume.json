@@ -1,0 +1,110 @@
+{
+    "header": {
+        "name": {
+            "first": "Elizabeth",
+            "last": "Oyebade"
+        },
+        "contact": {
+            "email": "ooyebade@bu.edu",
+            "phone": "(571) 398-8321",
+            "website": "https://oyebadeoe.com/"
+        }
+    },
+    "education": [
+        {
+            "name": "Boston University",
+            "degree": "Masters of Science in Software Development",
+            "location": "Boston, MA",
+            "duration": "Jan. 2021 – Current",
+            "courses": [
+                "Information Structures with Python"
+            ]
+        },
+        {
+            "name": "Virginia Commonwealth University",
+            "degree": "Bachelor of Science in Information Systems",
+            "location": "Richmond, VA",
+            "duration": "Aug 2016 - May 2020",
+            "courses": [
+                "Systems Analysis and Design",
+                "Information Systems Planning and Project Management",
+                "Information Technology Infrastructure", 
+                "Programming",
+                "Database System", 
+                "Fund of Data Communications",
+                "Projects in Information System", 
+                "Advanced Programming",
+                "Advanced Tech for E-Business", 
+                "Information Engineering"
+            ]
+        }
+    ],
+    "skills": {
+        "languages": [
+            "JavaScript",
+            "C++",
+            "C#",
+            "Python",
+            "HTML", 
+            "CSS",
+            "SQL", 
+            "WordPress"
+        ],
+        "frameworks": [
+            "Node.js",
+            "AngularJs"
+        ],
+        "tools": [
+            "GitHub"
+        ]
+    },
+    "experience": [
+        {
+            "title": "WEB CONTENT ASSOCIATE",
+            "loc": "NDI",
+            "duration": "Mar - Apr, 2021",
+            "desc": [
+                "Managed and maintained site; uploaded web content, and new information to a Drupal based website; edited and revised site topics and intervention info as needed.",
+                "Worked with the content producers within the Technology team to execute the vision of the strategists, designers, and creators.",
+                "Assisted the Senior Front-End Developer with on-going process improvements for the websites and content management system"
+            ]
+        },
+        {
+            "title": "DESK ASSISTANT",
+            "loc": "VCU Residential Life & Housing",
+            "duration": "Feb – Apr, 2020",
+            "desc": [
+                "Provided prompt, friendly service to all customers (residents, staff, faculty, parents, guests).",
+                "Answered desk telephone and accurately direct calls to the proper location or take messages for appropriate personnel and deliver appropriately.",
+                "Maintained a working knowledge of Residential Life and Housing and VCU resources and made referrals, as necessary"
+            ]
+        },
+        {
+            "title": "WEB DEVELOPER INTERN",
+            "loc": "Veriheal",
+            "duration": "July 2018 – Aug 2019",
+            "desc": [
+                "Collaborated with a senior-level developer to help enable the operating system to handle 27 additional states via PHP.",
+                "Executed 57 pages of documentation of the company's primary backend system which will be used for two important system enhancements in the fall of 2019.",
+                "Assisted in developing user interfaces with modern JavaScript frameworks, HTML5 and CSS3."
+            ]
+        },
+        {
+            "title": "PRE-HEALTH DATA ENTRY CLERK",
+            "loc": "Virginia Commonwealth University",
+            "duration": "Mar - May, 2018",
+            "desc": [
+                "Smoothed medical school application process for students by improving records management.",
+                "Administered analytical tools for assuring quality and completeness of data via Excel spreadsheet.",
+                "Chaired confidential information as well as furnished information to administrators."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "",
+            "duration": "",
+            "desc": ""
+        }
+    ]
+}
