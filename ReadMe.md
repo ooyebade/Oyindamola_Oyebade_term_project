@@ -23,4 +23,4 @@ The project consists of static files (HTML, CSS, JavaScript, JSON, JQuery, AJAX,
 - Structure:
     - **assets**: Within the <u>assets</u> folder, there are the images and videos folders which stores all the relevant images, animated GIFs audio and videos files that will be used for the website. The assets folder also have two *JSON* documents. 
     - **js**: The <u>script</u> folder also known as *js* contains the JavaScript libraries to run the site. 
-    - **styles**: The <u>styles</u> folder contains the stylesheets(design/layout) for the website pages. # Oyindamola_Oyebade_term_project
+    - **styles**: The <u>styles</u> folder contains the stylesheets(design/layout) for the website pages.
