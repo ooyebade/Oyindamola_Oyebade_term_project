@@ -21,7 +21,7 @@
         {
             "sport": {
                 "id": "teammate & I-",
-                "url": "assets/img/ti.jpg",
+                "url": "assets/img/ti.JPG",
                 "alt": "Teammate & I",
                 "caption": "Teammate & I",
                 "num": 1
@@ -30,7 +30,7 @@
         {
             "sport": {
                 "id": "basketball game-",
-                "url": "assets/img/bg.jpg",
+                "url": "assets/img/bg.JPG",
                 "alt": "Basketball Game",
                 "caption": "Basketball Game",
                 "num": 1
@@ -39,7 +39,7 @@
         {
             "sport": {
                 "id": "in-game hurdle-",
-                "url": "assets/img/igh.jpg",
+                "url": "assets/img/igh.JPG",
                 "alt": "In-Game Hurdle",
                 "caption": "In-Game Hurdle",
                 "num": 1
@@ -48,7 +48,7 @@
         {
             "sport": {
                 "id": "in-Game Hurdle-",
-                "url": "assets/img/hurdle.jpg",
+                "url": "assets/img/hurdle.JPG",
                 "alt": "In-Game Hurdle",
                 "caption": "In-Game Hurdle",
                 "num": 1
